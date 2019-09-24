@@ -45,6 +45,7 @@ p.copyright{
 }
 img{
   border: 5px solid #cacbcb;
+  transition: border .5s ease;
 }
 img:hover{
   border: 5px solid #727e79;
