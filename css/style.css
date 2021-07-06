@@ -18,3 +18,32 @@ body {
 }
 
 /* Write all remaining styles here */
+header, #about h2 , #press h2{
+	font-family: 'Times New Roman', serif;
+	color: rgb(152,173,166);
+	font-size: 2em;
+}
+
+header img{
+	border: 5px solid rgb(152,173,166);
+}
+#about p{
+	color: #555;
+    
+}
+#press img{
+	border: 5px solid #ccc;
+}
+#press img:hover{
+  border: 5px solid rgb(52, 180, 137);
+  transition: border 2s ease-out ;
+  -webkit-transition: border 2s ease-out ;
+  -moz-transition: border 2s ease-out ;
+  -ms-transition: border 2s ease-out ;
+  -o-transition: border 2s ease-out ;
+}
+footer{
+	text-align: right;
+	font-size: smaller;
+	color: #555;
+}
